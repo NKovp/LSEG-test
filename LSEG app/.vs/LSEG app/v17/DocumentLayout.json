@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{7A6BED89-DE80-4D9A-9BD7-2BDC896A79BD}|LSEG app.csproj|c:\\nikita\\lseg-test\\lseg app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A6BED89-DE80-4D9A-9BD7-2BDC896A79BD}|LSEG app.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A6BED89-DE80-4D9A-9BD7-2BDC896A79BD}|LSEG app.csproj|c:\\nikita\\lseg-test\\lseg app\\models\\jobduration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A6BED89-DE80-4D9A-9BD7-2BDC896A79BD}|LSEG app.csproj|solutionrelative:models\\jobduration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A6BED89-DE80-4D9A-9BD7-2BDC896A79BD}|LSEG app.csproj|c:\\nikita\\lseg-test\\lseg app\\models\\logentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A6BED89-DE80-4D9A-9BD7-2BDC896A79BD}|LSEG app.csproj|solutionrelative:models\\logentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A6BED89-DE80-4D9A-9BD7-2BDC896A79BD}|LSEG app.csproj|c:\\nikita\\lseg-test\\lseg app\\logs.log||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7A6BED89-DE80-4D9A-9BD7-2BDC896A79BD}|LSEG app.csproj|solutionrelative:logs.log||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,13 +82,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobDuration.cs",
+              "DocumentMoniker": "C:\\Nikita\\LSEG-test\\LSEG app\\Models\\JobDuration.cs",
+              "RelativeDocumentMoniker": "Models\\JobDuration.cs",
+              "ToolTip": "C:\\Nikita\\LSEG-test\\LSEG app\\Models\\JobDuration.cs",
+              "RelativeToolTip": "Models\\JobDuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T21:16:18.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogEntry.cs",
+              "DocumentMoniker": "C:\\Nikita\\LSEG-test\\LSEG app\\Models\\LogEntry.cs",
+              "RelativeDocumentMoniker": "Models\\LogEntry.cs",
+              "ToolTip": "C:\\Nikita\\LSEG-test\\LSEG app\\Models\\LogEntry.cs",
+              "RelativeToolTip": "Models\\LogEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T21:15:42.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "logs.log",
+              "DocumentMoniker": "C:\\Nikita\\LSEG-test\\LSEG app\\logs.log",
+              "RelativeDocumentMoniker": "logs.log",
+              "ToolTip": "C:\\Nikita\\LSEG-test\\LSEG app\\logs.log",
+              "RelativeToolTip": "logs.log",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-04-16T21:11:52.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Nikita\\LSEG-test\\LSEG app\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Nikita\\LSEG-test\\LSEG app\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwB8AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwEIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T20:50:08.028Z",
               "EditorCaption": ""

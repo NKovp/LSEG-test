@@ -50,22 +50,37 @@ namespace LSEG_app
                 }
             }
 
-            // Sort and output job durations, categorizing them by how long they took
-            foreach (var job in jobDurations.OrderBy(j => j.StartTime))
+            // Create path relative to the base directory of the app
+            string outputDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\OUTPUT");
+            Directory.CreateDirectory(outputDir); // Create the directory if it doesn't exist
+
+            string reportPath = Path.Combine(outputDir, "report.txt");
+
+            using (var writer = new StreamWriter(reportPath, false)) // false = overwrite
             {
-                var duration = job.Duration;
-                string status = "INFO";
-
-                if (duration > TimeSpan.FromMinutes(10))
+                // Sort and output job durations, categorizing them by how long they took
+                foreach (var job in jobDurations.OrderBy(j => j.StartTime))
                 {
-                    status = "ERROR";
-                }
-                else if (duration > TimeSpan.FromMinutes(5))
-                {
-                    status = "WARNING";
-                }
+                    var duration = job.Duration;
+                    string status = "INFO";
 
-                Console.WriteLine($"[{status}] PID: {job.PID}, Task: {job.Description}, Duration: {duration:mm\\:ss}");
+                    if (duration > TimeSpan.FromMinutes(10))
+                    {
+                        status = "ERROR";
+                    }
+                    else if (duration > TimeSpan.FromMinutes(5))
+                    {
+                        status = "WARNING";
+                    }
+
+                    string output = $"[{status}] " +
+                        $"PID: {job.PID}, " +
+                        $"Task: {job.Description}, " +
+                        $"Duration: {duration:mm\\:ss}";
+
+                    Console.WriteLine(output);       // Output to console
+                    writer.WriteLine(output);        // Output to file
+                }
             }
         }
 
